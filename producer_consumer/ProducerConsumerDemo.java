@@ -8,7 +8,8 @@ import java.util.concurrent.LinkedBlockingDeque;
 /**
  * 运行测试
  * @author feng-hong-zhang
- *
+ * 这中模式内部使用了锁,可能会降低性能.
+ * 在实际环境中,可以考虑使用disruptor并发框架.
  * 2017年9月14日
  */
 public class ProducerConsumerDemo {
